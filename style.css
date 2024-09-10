@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: flex;
+  align-items: center;
+  background: url(bg.jpeg) no-repeat center;
+  background-size: cover;
+}
+
+form {
+  margin: auto;
+  background-color: transparent;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  border: 2px solid #ffffff4d;
+  border-radius: 20px;
+}
+
+.textBox input {
+  border-radius: 20px;
+  border: 2px solid #ffffff31;
+  width: 16rem;
+  padding: 12px;
+  margin-bottom: 9%;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  transition: 0.5s ease;
+}
+
+.textBox input::placeholder {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.textBox input:focus {
+  border-radius: 20px;
+  border: 2px solid rgba(255, 81, 0, 0.699);
+}
+
+.textLink {
+  color: white;
+  font-size: large;
+}
+
+.textLink a {
+  color: rgb(255, 81, 0);
+  text-decoration: none;
+  transition: 0.6s;
+}
+
+.textLink a:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  width: 16rem;
+  padding: 12px;
+  margin-bottom: 3%;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 2px solid #ffffff31;
+  color: white;
+  letter-spacing: 3px;
+  transition: all 0.4s;
+  text-transform: capitalize;
+  font-size: large;
+  cursor: pointer;
+  margin-top: 12%;
+}
+
+.btn:hover {
+  border: 2px solid rgba(255, 81, 0, 0.699);
+  background-color: rgba(255, 81, 0, 0.247);
+}
